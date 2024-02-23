@@ -1,4 +1,4 @@
-## Installation Guide for Pasgen Tool
+## Installation Guide for Pasgen Tools
 
 1. **Clone the Repository:
 ```**
@@ -10,47 +10,43 @@ Navigate to the Project Directory:
 
 ```bash
 cd pasgen
-Make Scripts Executable:
 ```
-
+## Make Scripts Executable:
 ```bash
 chmod +x pasgen
 chmod +x generate_entries.py
-Install the Tool:
 ```
-
+## Install the Tool:
 ```bash
 sudo python3 setup.py install
-Set Up the Password:
 ```
-
+## Set Up the Password:
 ```bash
 pasgen setup
-Generate Passwords or Pins:
 ```
-
+## Generate Passwords or Pins:
 ```bash
-# Generate a password
+Generate a password:
 pasgen generate
 
-# Generate a pin
-pasgen generate -p
-View Generated Passwords:
-```
+Generate a pin:
 
+pasgen generate -p
+```
+# View Generated Passwords:
 ```bash
 cat pasgen-entries.txt
-Change Password:
 ```
+## Change Password:
 
 ```bash
 pasgen setup
-Run the Tool:
 ```
-
+## Run the Tool:
 ```bash
 pasgen
-Note:
 ```
+# Note:
+
 Make sure you have Python 3 installed on your system.
 You may need to use sudo to execute certain commands depending on your system's configuration.
