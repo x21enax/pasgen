@@ -1,6 +1,6 @@
-## Installation Guide for Pasgen Tools
+# Installation Guide for Pasgen Tools
 
-1. **Clone the Repository:
+## Clone the Repository:
 ```**
    ```bash
    git clone https:
