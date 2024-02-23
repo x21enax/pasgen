@@ -4,7 +4,7 @@
 ```**
    ```bash
    git clone https:
-   ```//github.com/x21empire/pasgen.git
+   ```//github.com/x21enax/pasgen.git
 Navigate to the Project Directory:
 ```
 
