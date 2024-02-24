@@ -21,11 +21,15 @@ def setup_pasgen():
     shutil.copy(generate_entries_src, generate_entries_dst)
     make_executable(generate_entries_dst)
 
+# Read the contents of the requirements.txt file
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setup(
     name='pasgen',
     version='1.0',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=requirements,
     entry_points={
         'console_scripts': [
             'pasgen=pasgen:main',
