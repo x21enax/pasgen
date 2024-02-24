@@ -2,12 +2,10 @@
 
 ## Clone the Repository:
 ```**
-   ```bash
-   git clone https:
-   ```//github.com/x21enax/pasgen.git
-Navigate to the Project Directory:
-```
+git clone https://github.com/x21enax/pasgen.git
 
+```
+## Navigate to the Project Directory:
 ```bash
 cd pasgen
 ```
@@ -28,9 +26,9 @@ pasgen setup
 ```bash
 Generate a password:
 pasgen generate
-
+```
 Generate a pin:
-
+```bash
 pasgen generate -p
 ```
 # View Generated Passwords:
